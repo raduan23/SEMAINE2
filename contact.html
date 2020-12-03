@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nous souhaintons nous améiliorer</h1>
+    <p>dit moi comment je peux m'améiliorer. </p>
+    <form>
+        <label for="fname">Ton nom:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Ton Email:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <form>
+        <label for="lname">Age:</label><br>
+    <input type="number" id="age" name="age">
+    </form>
+    <form>
+        <p> Qu'est que te corresponde le mieux à l'instint présent: </p>
+    <form action = "/action_page.php" >
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+    <option value="Etudiant">
+    <option value="employe">
+    <option value="profession liberal">
+    <option value="je ne préfèr rien dire">
+    <option value="autre">
+    </datalist>
+    </form>
+    <p>Qu'est que tu me recommandes?</p>
+    
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Oui</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Peut-être</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Non</label>
+</form> 
+<p>pourqoui as tu choisis mes services?</p>
+<select id="cars" name="cars">
+    <option value="volvo">pour ce que je propose</option>
+    <option value="saab">pour les differents project realisés</option>
+    <option value="fiat">par recommendation</option>
+    <option value="audi">le fait d'etre transparent avec ma communauté</option>
+    </select>
+<p>pourquoi t'as choisis mes services ?</p>
+<p>(choix illimité):</p>
+<form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1">Le Portfolio</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">La page de vente</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Présence sur les réseaux </label><br><br>
+    <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>

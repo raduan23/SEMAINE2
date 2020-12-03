@@ -1,0 +1,15 @@
+.percent{
+    width: 30%;
+}
+body{background-color: black;}
+h1,p,h2{color: white;}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+*{display: flex;
+    align-items: center;
+    flex-direction: column;
+}
